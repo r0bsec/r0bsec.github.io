@@ -200,7 +200,7 @@ We might assume that is the steg password for the other image. We try that:
 steghide extract -sf ./cute-alien.jpg
 ```
 
-That wrote out it's contents to [message.txt](message.txt) which is addressed to `james` and appears to have his password. 
+That wrote out it's contents to `message.txt` which is addressed to `james` and appears to have his password. 
 
 Let's try that username/password over SSH - and sure-enough, we can log in and get the user flag, and the picture for the bonus question.
 
