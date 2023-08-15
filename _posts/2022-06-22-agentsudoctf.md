@@ -1,6 +1,5 @@
 ---
 title: "THM: agentsudoctf"
-author: r0bsec
 date: 2022-06-22 12:00:00 -500
 category: ["CTF", "TryHackMe"]
 tags: [ctf,nmap,nikto,gobuster,dirbuster,steganography,steghide,binwalk,john,zip2john,apache,ubuntu,CVE-2019–14287]
