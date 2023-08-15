@@ -41,7 +41,6 @@ PORT   STATE SERVICE
 80/tcp open  http
 ```
 
-*Also see: [nmap.log](nmap.log)*
 
 ### Running: `gobuster`
 
@@ -55,8 +54,6 @@ Interesting folders found:
 /index.php            (Status: 200) [Size: 218]
 ```
 
-*Also see: [gobuster.log](gobuster.log)*
-
 ### Running: `nikto`
 
 Ran the following:
@@ -69,7 +66,6 @@ Interesting info found:
 --Nothing really--
 ```
 
-*Also see: [nikto.log](nikto.log)*
 
 ## Gaining Access
 
@@ -98,15 +94,14 @@ hydra -l chris -P /usr/share/wordlists/rockyou.txt 10.10.13.116 ftp
 
 Sure enough, from that, we capture the FTP password for user `chris`. 
 
-*Also see: [hydra.log](hydra.log)*
 
 ### Unprivileged Access
 
 When we log into FTP as Chris, we have 3 files:
 
-- [cute-alien.jpg](cute-alien.jpg)
-- [cutie.png](cutie.png)
-- [To-agentJ.txt](To_agentJ.txt)
+- cute-alien.jpg
+- cutie.png
+- To-agentJ.txt
 
 We find out from the text file:
 
@@ -177,8 +172,6 @@ Loaded 1 password hash (ZIP, WinZip [PBKDF2-SHA1 256/256 AVX2 8x])
 Cost 1 (HMAC size) is 78 for all loaded hashes
 alien            (8702.zip/To_agentR.txt)   
 ```
-
-*Also see: [john.log](john.log)*
 
 ---
 
