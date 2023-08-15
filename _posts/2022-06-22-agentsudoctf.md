@@ -1,8 +1,8 @@
 ---
-title: "THM:agentsudoctf"
-subtitle: "TryHackMe CTF room: https://tryhackme.com/room/agentsudoctf"
+title: "THM: agentsudoctf"
+author: r0bsec
 date: 2022-06-22 12:00:00 -500
-category: ["CTF"]
+category: ["CTF", "TryHackMe"]
 tags: [ctf,nmap,nikto,gobuster,dirbuster,steganography,steghide,binwalk,john,zip2john,apache,ubuntu,CVE-2019–14287]
 ---
 
@@ -24,7 +24,7 @@ Ran the following:
 
 Interesting ports found to be open:
 
-```python
+```nmap
 PORT   STATE SERVICE
 21/tcp open  ftp
 22/tcp open  ssh
@@ -40,7 +40,7 @@ Ran the following:
 
 Interesting folders found:
 
-```python
+```gobuster
 /index.php            (Status: 200) [Size: 218]
 ```
 
@@ -52,7 +52,7 @@ Ran the following:
 
 Interesting info found:
 
-```python
+```nikto
 --Nothing really--
 ```
 
@@ -78,7 +78,7 @@ curl -H "User-Agent: C" -L http://10.10.13.116
 
 From that, we can discern the username of "C". Since both SSH and FTP are services, let's try hydra against FTP with:
 
-```python
+```bash
 hydra -l chris -P /usr/share/wordlists/rockyou.txt 10.10.13.116 ftp
 ```
 
