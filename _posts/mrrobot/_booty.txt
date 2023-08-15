@@ -1,0 +1,34 @@
+################################################################################
+# BOOTY - Use this file to store:                                              #
+# - Found credentials                                                          #
+# - Interest artifacts                                                         #
+# - Notes about your work                                                      #
+# - Stage commands that you plan to run                                        #
+#                                                                              #
+# ** This file is excluded from git and is not stored in git.                  #
+#                                                                              #
+################################################################################
+
+key-1-of-3.txt (found from website /robots.txt)
+---
+073403c8a58a1f80d943455fb30724b9
+
+key-2-of-3.txt (found from /home/robot/key-2-of-3.txt)
+822c73956184f694993bede3eb39f959
+
+key-3-of-3.txt (found from /root/)
+04787ddef27c3dee1ee161b21670b4e4
+
+
+
+/wp-login.php
+
+elliot:ER28-0652
+
+
+reverse shelled as "daemon", /home/robot/password.raw-md5 is:
+robot:c3fcd3d76192e4007dfb496cca67e13b
+
+using https://hashes.com/en/decrypt/hash, that is a known hash:
+
+abcdefghijklmnopqrstuvwxyz
