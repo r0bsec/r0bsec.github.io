@@ -8,4 +8,3 @@ order: 4
 {: .prompt-tip }
 
 
-- [chillhack](/pages/chillhack/index.html)

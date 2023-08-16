@@ -55,7 +55,7 @@ PORT   STATE SERVICE VERSION
 
 ```
 
-Also see: [nmap.log](nmap.log)
+
 
 ### Running: `gobuster`
 
@@ -69,7 +69,7 @@ Interesting folders found on `:80`:
 /secret      (Status: 301) [Size: 315] [--> http://10.10.168.235/secret/]
 ```
 
-Also see: [gobuster.log](gobuster.log)
+
 
 ### Running: `nikto`
 
@@ -96,7 +96,7 @@ Not much of anything interesting info found on `:80`:
 + /icons/README: Apache default file found. See: https://www.vntweb.co.uk/apache-restricting-access-to-iconsreadme/
 ```
 
-Also see: [nikto.log](nikto.log)
+
 
 ## Gaining Access
 
