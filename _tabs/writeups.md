@@ -8,4 +8,3 @@ order: 4
 {: .prompt-tip }
 
 
-[write-ups](/pages/index.html)
