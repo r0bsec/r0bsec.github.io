@@ -52,7 +52,7 @@ collections:
 defaults:
   - scope:
       path: "" # An empty string here means all files in the project
-      type: posts
+      type: post
     values:
       layout: post
       comments: true # Enable comments in posts.
@@ -62,7 +62,6 @@ defaults:
       permalink: /posts/:title/
   - scope:
       path: "pages" # An empty string here means all files in the project
-      type: pages
     values:
       layout: page
       comments: true # Enable comments in posts.
