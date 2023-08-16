@@ -2,11 +2,3 @@
 layout: home
 # Index page
 ---
-
-
-{% for file in site.pages %}
-  {% if file.path contains '/pages/' %}
-    {% assign content = site.pages[file.path] | markdownify %}
-    {{ content }}
-  {% endif %}
-{% endfor %}
