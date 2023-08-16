@@ -45,6 +45,7 @@ collections:
     output: true
     sort_by: order
   pages:
+    directory: _pages/*/*
     output: true
     sort_by: order
 
