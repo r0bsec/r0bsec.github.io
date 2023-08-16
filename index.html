@@ -6,6 +6,7 @@ layout: home
 
 {% for file in site.pages %}
   {% if file.path contains '/pages/' %}
-    {% include_relative file.path %}
+    {% assign content = site.pages[file.path] | markdownify %}
+    {{ content }}
   {% endif %}
 {% endfor %}
