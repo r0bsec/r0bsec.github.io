@@ -6,6 +6,6 @@ layout: home
 
 {% for file in site.pages %}
   {% if file.path contains '/pages/' %}
-    {% include_relative {{ file.path }} %}
+    {% include_relative file.path %}
   {% endif %}
 {% endfor %}
