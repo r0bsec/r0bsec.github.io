@@ -114,6 +114,10 @@ pwa:
 
 paginate: 10
 
+include:
+  - pages
+
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
