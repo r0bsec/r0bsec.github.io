@@ -61,7 +61,8 @@ defaults:
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
   - scope:
-      path: "pages" # An empty string here means all files in the project
+      path: "" # An empty string here means all files in the project
+      type: pages
     values:
       layout: page
       comments: true # Enable comments in posts.
