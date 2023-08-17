@@ -44,8 +44,8 @@ collections:
   tabs:
     output: true
     sort_by: order
-  pages:
-    directory: _pages/*/*
+  writeupts:
+    directory: _writeups/*/*
     output: true
     sort_by: order
 
@@ -62,7 +62,7 @@ defaults:
       permalink: /posts/:title/
   - scope:
       path: "" # An empty string here means all files in the project
-      type: pages
+      type: writeups
     values:
       layout: page
       comments: true # Enable comments in posts.

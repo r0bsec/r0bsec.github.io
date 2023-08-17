@@ -6,8 +6,8 @@ tags: ctf,nmap,gobuster,dirbuster,session,broken-authentication,javascript,apach
 breadcrumbs:
   - text: Home
     url: /
-  - text: Pages
-    url: /pages/
+  - text: Writeups
+    url: /writeups/
   - text: chillhack
 ---
 # THM:chillhack
