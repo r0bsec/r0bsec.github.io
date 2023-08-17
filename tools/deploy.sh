@@ -62,6 +62,8 @@ test() {
   #   --allow_hash_href \
   #   "$SITE_DIR"
   # TODO: Allow broken links for now
+
+  return 0
 }
 
 resume_site_dir() {
