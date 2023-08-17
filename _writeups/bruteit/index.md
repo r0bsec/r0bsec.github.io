@@ -1,8 +1,8 @@
 ---
 title: "THM:bruteit"
 subtitle: "TryHackMe CTF room: https://tryhackme.com/room/bruteit"
-category: "CTF"
-tags: ctf,nmap,gobuster,hydra,apache,ubuntu,john,ssh2john,privesc
+category: ["CTF"]
+tags: [ctf,nmap,gobuster,hydra,apache,ubuntu,john,ssh2john,privesc]
 breadcrumbs:
   - text: Home
     url: /

@@ -4,11 +4,11 @@ icon: fas fa-info-circle
 order: 4
 ---
 
- Current Write-ups
+## TryHackMe
 
 Below are the write-ups of the key details of each TryHackMe room, in case you get stuck.
 
-## Difficulty: Easy
+### Difficulty: Easy
 
 1. **[basicpentestingjt](basicpentestingjt/index.html)** <span class="badge bg-success">Complete</span> - from [https://tryhackme.com/room/basicpentestingjt](https://tryhackme.com/room/basicpentestingjt)
 1. **[picklerick](picklerick/index.html)** <span class="badge bg-success">Complete</span> - from [https://tryhackme.com/room/picklerick](https://tryhackme.com/room/picklerick)
@@ -26,4 +26,7 @@ Below are the write-ups of the key details of each TryHackMe room, in case you g
 1. **[wgetctf](wgetctf/index.html)** <span class="badge bg-success">Complete</span> - from [https://tryhackme.com/room/wgetctf](https://tryhackme.com/room/wgetctf)
 1. **[chillhack](chillhack/index.html)** <span class="badge bg-info text-dark">Pending</span> - from [https://tryhackme.com/room/chillhack](https://tryhackme.com/room/chillhack)
 1. **[bruteit](bruteit/index.html)** <span class="badge bg-success">Complete</span> - from [https://tryhackme.com/room/bruteit](https://tryhackme.com/room/bruteit)
+
+### Difficulty: Medium
+
 1. **[mrrobot](mrrobot/index.html)** <span class="badge bg-success">Complete</span> - from [https://tryhackme.com/room/mrrobot](https://tryhackme.com/room/mrrobot)
