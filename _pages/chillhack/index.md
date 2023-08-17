@@ -3,6 +3,12 @@ title: "THM - chillhack"
 subtitle: "TryHackMe CTF room: https://tryhackme.com/room/chillhack"
 category: "CTF"
 tags: ctf,nmap,gobuster,dirbuster,session,broken-authentication,javascript,apache,ubuntu,john,gpg2john,linpeas,privesc,cron
+breadcrumbs:
+  - text: Home
+    url: /
+  - text: Pages
+    url: /pages/
+  - text: chillhack
 ---
 # THM:chillhack
 
