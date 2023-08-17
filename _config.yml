@@ -44,7 +44,7 @@ collections:
   tabs:
     output: true
     sort_by: order
-  writeupts:
+  writeups:
     directory: _writeups/*/*
     output: true
     sort_by: order
