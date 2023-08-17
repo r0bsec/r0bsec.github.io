@@ -4,4 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-This should redirect to /writeups/.
+## TryHackMe Rooms
+
+- [chillhack](chillhack/)

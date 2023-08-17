@@ -10,7 +10,6 @@ breadcrumbs:
     url: /writeups/
   - text: chillhack
 ---
-# THM:chillhack
 
 URL: [https://tryhackme.com/room/chillhack](https://tryhackme.com/room/chillhack) [Easy]
 

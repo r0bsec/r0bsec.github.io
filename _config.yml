@@ -68,6 +68,7 @@ defaults:
       comments: true # Enable comments in posts.
       toc: true # Display TOC column in posts.
       output: true
+      author: r0bsec
 
   - scope:
       path: _drafts
