@@ -49,6 +49,7 @@ collections:
     output: true
     sort_by: order
     extensions: [md, txt, log, hash]
+    permalink: /:path/
 
 defaults:
   - scope:
