@@ -1,0 +1,17 @@
+################################################################################
+# BOOTY - Use this file to store:                                              #
+# - Found credentials                                                          #
+# - Interest artifacts                                                         #
+# - Notes about your work                                                      #
+# - Stage commands that you plan to run                                        #
+#                                                                              #
+# ** This file is excluded from git and is not stored in git.                  #
+#                                                                              #
+################################################################################
+
+admin:xavier
+
+john - username?
+
+id_rsa password: rockinroll
+

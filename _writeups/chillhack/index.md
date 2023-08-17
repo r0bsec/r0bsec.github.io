@@ -1,18 +1,20 @@
 ---
-title: "THM - chillhack"
+title: "THM:chillhack"
 subtitle: "TryHackMe CTF room: https://tryhackme.com/room/chillhack"
 category: "CTF"
 tags: ctf,nmap,gobuster,dirbuster,session,broken-authentication,javascript,apache,ubuntu,john,gpg2john,linpeas,privesc,cron
-breadcrumbs:
-  - text: Home
-    url: /
-  - text: Writeups
-    url: /writeups/
-  - text: chillhack
 ---
+# THM:chillhack
 
 URL: [https://tryhackme.com/room/chillhack](https://tryhackme.com/room/chillhack) [Easy]
 
+Tags: 
+<div style="margin-left: 5px;">
+{% assign tags = page.tags | split: "," %}
+{% for tag in tags %}
+<a href="../search/?q={{tag}}" title="Click to search by this tag"><span class="badge bg-secondary">{{tag}}</span></a>
+{% endfor %}
+</div>
 <hr>
 
 ## Reconnaissance
@@ -60,7 +62,7 @@ PORT   STATE SERVICE VERSION
 
 ```
 
-
+Also see: [nmap.log](nmap.log)
 
 ### Running: `gobuster`
 
@@ -74,7 +76,7 @@ Interesting folders found on `:80`:
 /secret      (Status: 301) [Size: 315] [--> http://10.10.168.235/secret/]
 ```
 
-
+Also see: [gobuster.log](gobuster.log)
 
 ### Running: `nikto`
 
@@ -101,7 +103,7 @@ Not much of anything interesting info found on `:80`:
 + /icons/README: Apache default file found. See: https://www.vntweb.co.uk/apache-restricting-access-to-iconsreadme/
 ```
 
-
+Also see: [nikto.log](nikto.log)
 
 ## Gaining Access
 
