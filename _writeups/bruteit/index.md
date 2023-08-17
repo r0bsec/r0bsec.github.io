@@ -3,18 +3,18 @@ title: "THM:bruteit"
 subtitle: "TryHackMe CTF room: https://tryhackme.com/room/bruteit"
 category: "CTF"
 tags: ctf,nmap,gobuster,hydra,apache,ubuntu,john,ssh2john,privesc
+breadcrumbs:
+  - text: Home
+    url: /
+  - text: Writeups
+    url: /writeups/
+  - text: bruteit
 ---
-# THM:bruteit
+bruteit
 
 URL: [https://tryhackme.com/room/bruteit](https://tryhackme.com/room/bruteit) [Easy]
 
-Tags: 
-<div style="margin-left: 5px;">
-{% assign tags = page.tags | split: "," %}
-{% for tag in tags %}
-<a href="../search/?q={{tag}}" title="Click to search by this tag"><span class="badge bg-secondary">{{tag}}</span></a>
-{% endfor %}
-</div>
+
 <hr>
 
 ## Reconnaissance

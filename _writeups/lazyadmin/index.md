@@ -4,18 +4,18 @@ subtitle: "TryHackMe CTF room: https://tryhackme.com/room/lazyadmin"
 category: "CTF"
 tags: ctf,nmap,gobuster,dirbuster,searchsploit,apache,ubuntu,mysql,linpeas,privesc,upload,file-upload-bypass,sudo,sweetrice,cms
 page_excerpts: true
+breadcrumbs:
+  - text: Home
+    url: /
+  - text: Writeups
+    url: /writeups/
+  - text: lazyadmin
 ---
-# THM:lazyadmin
+lazyadmin
 
 URL: [https://tryhackme.com/room/lazyadmin](https://tryhackme.com/room/lazyadmin) [Easy]
 
-Tags: 
-<div style="margin-left: 5px;">
-{% assign tags = page.tags | split: "," %}
-{% for tag in tags %}
-<a href="../search/?q={{tag}}" title="Click to search by this tag"><span class="badge bg-secondary">{{tag}}</span></a>
-{% endfor %}
-</div>
+
 <hr>
 
 ## Reconnaissance
